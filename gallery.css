@@ -1,0 +1,46 @@
+/* This is the CSS of our webpage body */
+body{
+  background-color: black;
+  color: gold;
+}
+/* This is the CSS for heading 1 */
+h1 {
+  text-align: center;
+}
+/* This is the CSS for the figure */
+figure {
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* This is the CSS for figcaption */
+figcaption {
+  font-style: italic;
+}
+/* This is the CSS for the section with gallery as Id */
+#gallery {
+  margin-top: 20px;
+}
+/* This is the CSS of undefined list tag with thumbnail-list as Id */
+#thumbnail-list{
+  padding: 0;
+  margin: 100px auto 50px;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  grid-gap: 30px;
+}
+/* This is the CSS of list in undefined list tag with thumbnail-list as Id */
+#thumbnail-list li {
+  margin-right: 10px;
+}
+/* This CSS will come into play when cursor is hovered over the image */
+#thumbnail-list img:hover{
+  transform: scale(0.8) rotate(-15deg);
+  border-radius: 20px;
+  box-shadow: 0 32px 75px rgba(68, 77, 136, 0.2);
+  cursor: pointer;
+}
+/* This is the CSS which will come into play when image is not selected */
+#thumbnail-list img:not(.active) {
+  filter: grayscale(100%);
+}
