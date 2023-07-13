@@ -1,33 +1,33 @@
 // Define the gallery items array
 const galleryItems = [
   {
-    src: 'images/flower-pink-large.jpg',
+    src: 'flower-pink-large.jpg',
     alt: 'Pink flowers',
-    thumbnailSrc: 'images/flowers-pink-small.jpg',
+    thumbnailSrc: 'flowers-pink-small.jpg',
     caption: 'Pink flowers'
   },
   {
-    src: 'images/flower-purple-large.jpg',
+    src: 'flower-purple-large.jpg',
     alt: 'Purple flowers',
     thumbnailSrc: 'images/flowers-purple-small.jpg',
     caption: 'Purple flowers' 
   },
   {
-    src: 'images/flower-red-large.jpg',
+    src: 'flower-red-large.jpg',
     alt: 'Red flowers',
     thumbnailSrc: 'images/flowers-red-small.jpg',
     caption: 'Red flowers'
   },
   {
-    src: 'images/flower-white-large.jpg',
+    src: 'flower-white-large.jpg',
     alt: 'White flowers',
-    thumbnailSrc: 'images/flowers-white-small.jpg',
+    thumbnailSrc: 'flowers-white-small.jpg',
     caption: 'White flowers'
   },
   {
-    src: 'images/flower-yellow-large.jpg',
+    src: 'flower-yellow-large.jpg',
     alt: 'Yellow flowers',
-    thumbnailSrc: 'images/flowers-yellow-small.jpg',
+    thumbnailSrc: 'flowers-yellow-small.jpg',
     caption: 'Yellow flowers'
   }
 ];
